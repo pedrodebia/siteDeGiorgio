@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html class="light" lang="pt-br"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DeGiorgio Arquitetura</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#E2725B",
+            "background-light": "#F5F5F5",
+            "background-dark": "#111921",
+            "text-light": "#333333",
+            "text-dark": "#F5F5F5",
+          },
+          fontFamily: {
+            "display": ["Work Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f4] dark:border-b-gray-800 bg-background-light dark:bg-background-dark px-10 py-3">
+<div class="flex items-center gap-4 text-text-light dark:text-text-dark">
+<div class="size-6">
+<svg class="h-full w-full" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">DeGiorgio Arq.</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="#">Projetos</a>
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="#">Sobre</a>
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="#">Serviços</a>
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="#">Contato</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Entre em Contato</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col">
+<div class="px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" data-alt="Imagem de um projeto arquitetônico moderno e iluminado." style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAMJMEtRpdR8ojxu3wQOicCQSQtpFcDF6-IzsUrtCv6zWNmy3TcOquxTQe-fz5uWe01HhseITWRrw1LxSjKk7RBsrnz49KiRINl9jYgfuChskZdQqTNLYb-zZ_n_Iqi0--kCx35gprDnRfkKtbYegw8LA59i7uuUPrXC0N29zyULt8pBA3-HDHIrKkLlBpLtB_yKNKAXTJvExfcgZvsSAPRKs4mNyiGVkzfiaW24Wjb4FoDyw3j8a17NoMzPNSeCMCyR4scmo2PuCs3");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                      Criando Espaços que Inspiram
+                    </h1>
+<h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Conheça nosso trabalho e transforme seu ambiente.
+                    </h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
+<span class="truncate">Veja Nossos Projetos</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<h2 class="text-text-light dark:text-text-dark text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Nossos Projetos</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-4">
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[4/3]" data-alt="Interior de uma residência moderna com sala de estar e cozinha integradas." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBnyig-zy4AvmSvc7EBQim3gli98wWZZY-B940F7ezDTLse723ctpE9aOLYo7L3qMykrrQazPIZIvoN3m_aJBgl2vFk3MpiZ8sNVHTQEtOCNmD3m1UtTX0UZcYlBM16wRK1n_9I7BclMheR_9i5nMX_pLTbRMSJdDpYCj18sY5d5kRnzOqBS5SSlBKt4ncPx2-qCWxx7q-dJqCi4T8eboCXRW4032DlVbf9pF_ximojZCOwl-UV4KxkLa6dk9mF1akDNc7yNOCyWK3K");'>
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Residencial Moderno</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[4/3]" data-alt="Escritório corporativo com design minimalista e muita luz natural." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBWUNrpO4zBJK7xQQ_v4jqYUrZDN7bZUY17zw9IKyL-L5DvrrUnt0jICMjPbDNeB_b02hitCPxFmhRLhbiKrnh51DBMyl0aGe7GMm1n90LMO2MfzfgyQCenExjG3tVrN22GkttYm94I1sc2m64CgwfnPu2wr7_a8GFBb-zu4hVFYiB2ghuWbp74GbDuUtFfEKUR-A7hAXPwm8Eqpq4qIVAzEPbWq0k0Vh_OxHoYv_liBeE9TsP7f8YLUADjhYSiM_vp78Esrsr2yAoM");'>
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Escritório Corporativo</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[4/3]" data-alt="Casa de campo com arquitetura rústica e vista para a natureza." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB8RhGu6AZMkl6dpPMuUa7_DOCVdRLjsQg4ctF-A4arxqrdZoBVxPuwLcflm039HiDazCdgTlc7gdgUcQ3790uKI4r1XonmIm6EUh8ZuJoQS4EHQzetOOjjHO2oicdDN425auex2gCqtS4eCdHXcA3Q6ORZwFM_0NG2DfLASjgcvZerUITpvY4ocQ-KdhBgj1LnWphia9pOUP8vaOk7P8t0DjwlXAgRUcsp8oNheyWRiJRNXUV-IYwO79OY-nP8GKb60P2tGtcM5fzS");'>
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Casa de Campo</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[4/3]" data-alt="Interior de uma loja conceito com design arrojado e iluminação dramática." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCJhGO-yPPIudt4gDD_JYogSV8RTHxj2LoOvkHPTKxiroSusKUS8TJKcKctwiX6RYE7eCTpEd6EUUK1dnWuvYJ6H4ikq9Qd0XSJyKsiw5Du4EOleEX262v7k_gdQRiwXIOIWwRbANmjK_Szn6ho1U08n-oxyJiwhdWq2KaTyKCJ0pQqTf6c_M2NXfTaXJw10WZlJ8cLwu2L5mhX9wzvYZTSygTxdtSPMofB9_n-9cggPE-i9eWCQu6ceQnQLZ0Q_RxRkmfGrpV2kRTr");'>
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Loja Conceito</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[4/3]" data-alt="Apartamento compacto com soluções inteligentes de aproveitamento de espaço." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBROCNCwbO8dZ9gG2zgYdgd9ZcnnTRFDIKjvRxUrsKk-qdpX4f-1e31k0Jz3aDUz1jcy6_0bqJOlelSic7Ac9AzJf0NT1zItYVe7Uvfk3nuylnwTe9MyT1QQUCXKKXNq6ziUg-v3X653r5nk5fOiaH8iUzqL8F4BbLEtmEXxj5Sq0g_6t1AVQ-aV9g2u2xYBTtLKfG2ALxJwAx0j_mc0fnzrNRT3HyJN-vkx4XU78QqIrNoTuBnt9v0Oze5XkCAUuq6SAdCuhTYUTn7");'>
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Apartamento Compacto</p>
+</div>
+<div class="bg-cover bg-center flex flex-col gap-3 rounded-lg justify-end p-4 aspect-[4/3]" data-alt="Restaurante sofisticado com ambiente acolhedor e design elegante." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYChDu2Xu704LkDerHK7vKvG7rb5vcd9fGiNC3AI2T3mLcP3z3V4KzRiJ_zb_GkWHvJ2TVN4sVvuBWH1qej8AT-BIqi5egvL0WAsiv6zyxXg9sap7sNyHfjhGhmfK9vtFJpkxSUwp8a1ZP5-T9t12EmZ9fpHtuY0YOZL739QCrl-scCvIt7LbNCUP040jVziTorLMVg901AuKlJGpUv6SVDjOKDVBRcaO1A-HiTGC2m-ZQxBDUbbNONMS6Y4n_TmEFsOT2Nvj-1syn");'>
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Restaurante Sofisticado</p>
+</div>
+</div>
+</div>
+</div>
+<div class="px-40 flex flex-1 justify-center py-10 bg-white dark:bg-gray-900">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="flex flex-col gap-10 px-4 py-10 @container">
+<div class="flex flex-col gap-6">
+<div class="flex flex-col gap-4">
+<h1 class="text-text-light dark:text-text-dark tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
+                    Sobre Nós
+                  </h1>
+<p class="text-text-light dark:text-gray-300 text-base font-normal leading-normal max-w-[720px]">
+                    Acreditamos que a arquitetura tem o poder de transformar vidas. Nossa filosofia se baseia em três pilares: design centrado no ser humano, inovação e sustentabilidade. Cada projeto é uma oportunidade de criar espaços que não apenas atendem às necessidades de nossos clientes, mas também inspiram e elevam a experiência humana.
+                  </p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] w-fit">
+<span class="truncate">Saiba Mais</span>
+</button>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-0">
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dce0e5] dark:border-gray-700 bg-background-light dark:bg-background-dark p-4 flex-col">
+<span class="material-symbols-outlined text-text-light dark:text-text-dark" style="font-size: 24px;">group</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-text-light dark:text-text-dark text-base font-bold leading-tight">Design Centrado no Ser Humano</h2>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Criamos espaços que se adaptam às suas necessidades e estilo de vida.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dce0e5] dark:border-gray-700 bg-background-light dark:bg-background-dark p-4 flex-col">
+<span class="material-symbols-outlined text-text-light dark:text-text-dark" style="font-size: 24px;">lightbulb</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-text-light dark:text-text-dark text-base font-bold leading-tight">Inovação</h2>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Buscamos constantemente novas tecnologias e materiais para oferecer soluções criativas.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-[#dce0e5] dark:border-gray-700 bg-background-light dark:bg-background-dark p-4 flex-col">
+<span class="material-symbols-outlined text-text-light dark:text-text-dark" style="font-size: 24px;">eco</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-text-light dark:text-text-dark text-base font-bold leading-tight">Sustentabilidade</h2>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Nosso compromisso é com projetos que respeitam o meio ambiente e promovem o bem-estar.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="px-40 flex flex-1 justify-center py-10">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<h2 class="text-text-light dark:text-text-dark text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-5 pt-5 text-center">O que nossos clientes dizem</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-8 p-4">
+<div class="flex flex-col gap-4 text-center">
+<p class="text-gray-600 dark:text-gray-400 italic">"O escritório transformou nosso apartamento em um verdadeiro lar. Cada detalhe foi pensado com um cuidado incrível!"</p>
+<p class="font-bold text-text-light dark:text-text-dark">- Família Silva</p>
+</div>
+<div class="flex flex-col gap-4 text-center">
+<p class="text-gray-600 dark:text-gray-400 italic">"Profissionalismo impecável e criatividade sem limites. Nosso escritório ficou funcional e com uma estética fantástica."</p>
+<p class="font-bold text-text-light dark:text-text-dark">- CEO, Empresa InovaTech</p>
+</div>
+<div class="flex flex-col gap-4 text-center">
+<p class="text-gray-600 dark:text-gray-400 italic">"O projeto da nossa casa de campo superou todas as expectativas. Uma conexão perfeita entre arquitetura e natureza."</p>
+<p class="font-bold text-text-light dark:text-text-dark">- Sr. e Sra. Oliveira</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-white dark:bg-gray-900 border-t border-solid border-b-[#f0f2f4] dark:border-b-gray-800">
+<div class="px-40 flex flex-1 justify-center py-10">
+<div class="layout-content-container flex flex-col md:flex-row justify-between items-center max-w-[960px] flex-1 gap-8">
+<div class="flex flex-col gap-2 text-center md:text-left">
+<h3 class="text-lg font-bold text-text-light dark:text-text-dark">Arquitetura &amp; Design</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Criando espaços que inspiram.</p>
+<p class="text-xs text-gray-500 dark:text-gray-500 mt-4">© 2024 Arquitetura &amp; Design. Todos os direitos reservados.</p>
+</div>
+<div class="flex flex-col gap-4 text-center md:text-left">
+<h4 class="font-semibold text-text-light dark:text-text-dark">Contato</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400">Rua da Arquitetura, 123, São Paulo - SP</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">contato@arquiteturadesign.com</p>
+<p class="text-sm text-gray-600 dark:text-gray-400">(11) 98765-4321</p>
+</div>
+<div class="flex gap-4">
+<a class="text-gray-600 dark:text-gray-400 hover:text-primary" href="#">
+<svg class="feather feather-instagram" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect>
+<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+<line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+</svg>
+</a>
+<a class="text-gray-600 dark:text-gray-400 hover:text-primary" href="#">
+<svg class="feather feather-facebook" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+</a>
+<a class="text-gray-600 dark:text-gray-400 hover:text-primary" href="#">
+<svg class="feather feather-linkedin" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+<rect height="12" width="4" x="2" y="9"></rect>
+<circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>

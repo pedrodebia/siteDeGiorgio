@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html class="light" lang="pt-br"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfólio - Escritório de Arquitetura</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1773cf",
+            "background-light": "#f6f7f8",
+            "background-dark": "#111921",
+          },
+          fontFamily: {
+            "display": ["Work Sans", "Noto Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-20 xl:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f4] dark:border-b-[#2c3e50] px-4 sm:px-6 md:px-10 py-3">
+<div class="flex items-center gap-4 text-[#111418] dark:text-white">
+<div class="size-6">
+<svg class="text-primary" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-[#111418] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Escritório de Arquitetura</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-sm font-medium leading-normal text-[#111418] dark:text-white/80 hover:text-primary dark:hover:text-primary" href="#">Sobre Nós</a>
+<a class="text-sm font-medium leading-normal text-[#111418] dark:text-white/80 hover:text-primary dark:hover:text-primary" href="#">Serviços</a>
+<a class="text-sm font-bold leading-normal text-primary" href="#">Portfólio</a>
+<a class="text-sm font-medium leading-normal text-[#111418] dark:text-white/80 hover:text-primary dark:hover:text-primary" href="#">Contato</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Pedir Orçamento</span>
+</button>
+</nav>
+<button class="md:hidden p-2 rounded-lg bg-background-light dark:bg-background-dark text-[#111418] dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="flex-1 px-4 sm:px-6 md:px-10 py-8 md:py-12">
+<div class="flex flex-wrap justify-between items-center gap-4 mb-8">
+<h1 class="text-[#111418] dark:text-white text-4xl lg:text-5xl font-black leading-tight tracking-[-0.033em]">Nosso Portfólio</h1>
+</div>
+<div class="flex gap-2 sm:gap-3 p-3 flex-wrap pr-4 mb-8">
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-primary/20 dark:bg-primary/30 px-4 cursor-pointer hover:bg-primary/30 dark:hover:bg-primary/40 transition-colors">
+<p class="text-primary dark:text-white text-sm font-medium leading-normal">Todos</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f0f2f4] dark:bg-[#2c3e50] px-4 cursor-pointer hover:bg-gray-200 dark:hover:bg-[#34495e] transition-colors">
+<p class="text-[#111418] dark:text-white/80 text-sm font-medium leading-normal">Residencial</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f0f2f4] dark:bg-[#2c3e50] px-4 cursor-pointer hover:bg-gray-200 dark:hover:bg-[#34495e] transition-colors">
+<p class="text-[#111418] dark:text-white/80 text-sm font-medium leading-normal">Comercial</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f0f2f4] dark:bg-[#2c3e50] px-4 cursor-pointer hover:bg-gray-200 dark:hover:bg-[#34495e] transition-colors">
+<p class="text-[#111418] dark:text-white/80 text-sm font-medium leading-normal">Interiores</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f0f2f4] dark:bg-[#2c3e50] px-4 cursor-pointer hover:bg-gray-200 dark:hover:bg-[#34495e] transition-colors">
+<p class="text-[#111418] dark:text-white/80 text-sm font-medium leading-normal">Institucional</p>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<div class="bg-cover bg-center flex flex-col justify-end p-4 aspect-square transition-transform duration-300 group-hover:scale-105" data-alt="Casa moderna com fachada de vidro e concreto" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD4WlYwC1ynf53mmIOOiSRWJ5tgWwMpiEvybb7bZ33EKPttuFyUEGm6igOSjW6Gqu7j-XYUmSDjT2MQfgfaIt4WDPrdxH-oMNvGp5eBwTAi5UmE_5WrZVIvQOePdF5R5Qoy3PSqYSXSwnYPH_hlutt6b066gg8jiMgBNAI4BqyujT_sT9SPyGDpKYVI4TMa_asfXpttdrhHDNOkLPtObHpeU0SBWM8dJVajbtS6N0lp7zVXD2wsHnvZIgIkOb1zFUaWF67cVxGSLKr5");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+<div class="relative transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+<p class="text-white text-lg font-bold leading-tight">Casa Contempo</p>
+<p class="text-white/80 text-sm">Residencial</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<div class="bg-cover bg-center flex flex-col justify-end p-4 aspect-square transition-transform duration-300 group-hover:scale-105" data-alt="Apartamento de luxo com vista para a cidade" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDLiun2Y6jEjb5Mx-g9p9qfx07C07ITbZDLjJsAV_AGM_XIQWfohy_nzfNxzdiTo4N1lmp52zLUqABkZi4Q6YUYa8pZrGHnhD4S-Dv3WsdHvMNkWZgYZQZ3iZvnG-2MjO39zKxmp-iaESTAA1WD19XONXBBSZWJszzXTD6JOkzpZpUUPjpwcopqV49NC5nAk2ExRagdO5U-NQOeyZZ2nTGglBM6bN5xRcS_tcufcDW1CEKglkeLK8SU_m8Dj25i7Y4IRl6F6DX07OAF");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+<div class="relative transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+<p class="text-white text-lg font-bold leading-tight">Skyline Loft</p>
+<p class="text-white/80 text-sm">Interiores</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<div class="bg-cover bg-center flex flex-col justify-end p-4 aspect-square transition-transform duration-300 group-hover:scale-105" data-alt="Edifício comercial moderno com fachada de metal" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCji6XaOaVMAXsqakKPKgog3KVjOWTWA2-Vq7lANqfC2kZzDkjDhzWNcrzKmMXLk_yfA4dKw92LPAZC8VjYcNv1QAsaclBA4FUoVw9c82YYWH5KT5rOCZRxe_uhle-ewY5-KzpuyNgMTuGptiX14vXWSrzE9JJsegfEgNyim-qAzfCx8mbP2OZu6JfVQzNcGfJWeG9LzOfQ4U-v1d8mL5_F1JB6OLU3G5-RPUnouJo6hTtl4vUNXiJ5xkXgubzENlhtAGJ2ahDCI7f4");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+<div class="relative transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+<p class="text-white text-lg font-bold leading-tight">Nexus Corporate</p>
+<p class="text-white/80 text-sm">Comercial</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<div class="bg-cover bg-center flex flex-col justify-end p-4 aspect-square transition-transform duration-300 group-hover:scale-105" data-alt="Interior de restaurante com design elegante" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBQH6pLYiFOsJjMbrgu7FtbdFikcbMd6yuGFcYhGGpx-UN991fq9j5PbX47N3ZYD4xgmiLmp6dp52mzWQyEn-EofRcsmR-xyFjBVkRIdmp1h5noAqKc3YwH3ssYRzgefJfYaJ7DPAvlbn_hp1bDoQ86KiwwLBRDMsp4y6fLoEr3IKDCLvHVeuU2lJpgSLRHkRuxwp6ASsWlt26JW56-k802HKTe44nDgUbnLsBPIg0bb17VzbOLPYbj9gtlg9gFv0fQ_ussBjw2Epsm");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+<div class="relative transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+<p class="text-white text-lg font-bold leading-tight">Bistrô Sabor</p>
+<p class="text-white/80 text-sm">Interiores</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<div class="bg-cover bg-center flex flex-col justify-end p-4 aspect-square transition-transform duration-300 group-hover:scale-105" data-alt="Vila minimalista com piscina" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBAhZm49AxBE2BvIAbS9XSeVf5FEgIG65CrzQq8aF529T-FH57IEaVIVZEmbRZGOOaZhFngRrrLprXZVzFZ0_YQq_l-GNk9lbThIhoe4P8fD9JWJJNY547ffRZgU8zPBbbmyhR_aGpOsn3lUHSEzsybhna7UA2Fe7ff1sGNkrmK_0nMbUmlBcrt7kCpvNIbV-dzRom6-fd7iuzu_C_98Am__wf7J0ewQbsVwJfRBSNx6l5YPM3yQXDhOluEBxdkdk6HENl7m9ilx87C");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+<div class="relative transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+<p class="text-white text-lg font-bold leading-tight">Villa Serena</p>
+<p class="text-white/80 text-sm">Residencial</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<div class="bg-cover bg-center flex flex-col justify-end p-4 aspect-square transition-transform duration-300 group-hover:scale-105" data-alt="Escritório corporativo moderno e aberto" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCxdRWVcfwdNBP3lKCyj9JkDUsL781Kg7AQrlSnQFLQgHn5UkBAdLYoqxfvmICEZrQfLTlN0JjKqAD1fnNxbKVgu5dMcQ0ar13xnbyWcUdjVQKqUsIJMaOVG4A7PNSTR_WLxctWKLwgCYOunDXT6vO6gABKGU9S0i33ihvH_CgC2prvJ2kSiDBnidwIyPdzJrpUPtUofeMae2H2yUc7Mi4qwv1OZEZ3BkQcvMlYNBKYAgmXI5w_BKFXr4EX15SfE6b_M3ziqz1s-svh");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+<div class="relative transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+<p class="text-white text-lg font-bold leading-tight">Hub Inovação</p>
+<p class="text-white/80 text-sm">Comercial</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<div class="bg-cover bg-center flex flex-col justify-end p-4 aspect-square transition-transform duration-300 group-hover:scale-105" data-alt="Museu de arte com arquitetura arrojada" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBC0-OYJW9ZCtrpi1ys-PTMGCTGFrto93UjlbTaBxJdaCQJElc4cDzl3Y8lgvBupxvVUKEIEvwrwc3ZinkOeGnUVhZaZAXTJE5h4d6mwyDVz8BxDrMb0L5VxwOF1XOyUEVwwpgh3L4jiBI-_23QZiyVVuX7N7RFxEGihThlY7ineMJGkCIYwzf8spDosiBVfm-4-y1IHFujcBg7FR230VRMg8lV3nfJwSMuhQn-gZKBnvrq0who0SZOJTnhfMc4D3ohqKS9GgeBDkiy");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+<div class="relative transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+<p class="text-white text-lg font-bold leading-tight">Museu Prisma</p>
+<p class="text-white/80 text-sm">Institucional</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-lg cursor-pointer">
+<div class="bg-cover bg-center flex flex-col justify-end p-4 aspect-square transition-transform duration-300 group-hover:scale-105" data-alt="Interior de uma biblioteca moderna e iluminada" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuACdWNXhYzfpxiV60emb_HvljQXyFuV6mX5WSGMBgWBHfjDogDpDIZkeWO8GyR87nZKBUf1rD3gnsgseZkkJS_s6ioxZCwgeHvdTeXnL0MU-J-A0ge836_1_MCQDhd3Is6nuqRIvPNQrXQr5_FdvSWHxgu8IwYewRGtwqojL3GUUJ3N9TXYml8ME4AGjrJwGUekGwjtYadorQdAtD33H2BJqNJDwHr7SJ-WUmeoCR5UF7VFtl4jkzCJJK5AO5EKea5TcfYoBGmLZyqq");'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+<div class="relative transition-opacity duration-300 opacity-0 group-hover:opacity-100">
+<p class="text-white text-lg font-bold leading-tight">Biblioteca Central</p>
+<p class="text-white/80 text-sm">Institucional</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex px-4 py-10 justify-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Carregar Mais</span>
+</button>
+</div>
+</main>
+<footer class="bg-white dark:bg-background-dark border-t border-solid border-gray-200 dark:border-gray-800 text-center py-8 px-4 sm:px-6 md:px-10">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+<div>
+<h3 class="font-bold text-lg text-[#111418] dark:text-white mb-2">Escritório de Arquitetura</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Criando espaços que inspiram.</p>
+</div>
+<div>
+<h3 class="font-bold text-lg text-[#111418] dark:text-white mb-2">Siga-nos</h3>
+<div class="flex justify-center gap-4">
+<a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Pinterest</a>
+<a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">LinkedIn</a>
+</div>
+</div>
+<div>
+<h3 class="font-bold text-lg text-[#111418] dark:text-white mb-2">Contato</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">contato@arquitetura.com</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">(11) 98765-4321</p>
+</div>
+</div>
+<div class="mt-8 pt-8 border-t border-solid border-gray-200 dark:border-gray-800">
+<p class="text-sm text-gray-400 dark:text-gray-500">© 2024 Escritório de Arquitetura. Todos os direitos reservados.</p>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>
